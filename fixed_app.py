@@ -6,7 +6,7 @@ import re
 app = Flask(__name__)
 
 # 🔒 ADD YOUR GEMINI API KEY HERE
-GEMINI_API_KEY = "AIzaSyDxCMGVTByVBnBjLJRROTpcxpRQQi7JMPI"  # Replace with your actual API key
+GEMINI_API_KEY = "API KEY HERE"  # Replace with your actual API key
 genai.configure(api_key=GEMINI_API_KEY)
 
 MODEL_NAME = "gemini-2.5-flash"
