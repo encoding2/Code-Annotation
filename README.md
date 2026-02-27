@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/Language-Python-blue)
 ![Flask](https://img.shields.io/badge/Framework-Flask-black)
-![Gemini](https://img.shields.io/badge/AI-Gemini%202.5%20Flash-orange)
+![Gemini](https://img.shields.io/badge/AI_Model-Gemini%202.5%20Flash-orange)
 ![Status](https://img.shields.io/badge/Status-Active-success)
 
 An AI-powered web application that automatically annotates source code and generates professional project documentation using Google Gemini AI.
