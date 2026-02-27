@@ -82,3 +82,30 @@ This tool is designed to improve code readability, accelerate documentation, and
 ```bash
 git clone https://github.com/yourusername/ai-code-annotator.git
 cd ai-code-annotator
+```
+
+### 2️⃣ Create Virtual Environment (Optional but Recommended)
+
+```bash
+python -m venv venv
+source venv/bin/activate   # Mac/Linux
+venv\Scripts\activate      # Windows
+```
+
+### 3️⃣ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4️⃣ Add Your Gemini API Key
+Open app.py and add your API key:
+
+```bash
+GEMINI_API_KEY = "YOUR_API_KEY_HERE"
+```
+### 5️⃣ Run the Application
+
+```bash
+python app.py
+```
