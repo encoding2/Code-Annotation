@@ -1,164 +1,84 @@
-🤖 AI Code Annotator & README Generator
+# 🤖 AI Code Annotator & Documentation Generator
 
-An AI-powered web application that automatically annotates source code, generates brief explanations with time & space complexity analysis, and creates professional README.md and requirements.txt files using Google's Gemini 2.5 Flash model.
+![Python](https://img.shields.io/badge/Language-Python-blue)
+![Flask](https://img.shields.io/badge/Framework-Flask-black)
+![Gemini](https://img.shields.io/badge/AI-Gemini%202.5%20Flash-orange)
+![Status](https://img.shields.io/badge/Status-Active-success)
 
-Built with Python (Flask) and integrated with Google Generative AI, this tool acts as a lightweight AI developer assistant.
+An AI-powered web application that automatically annotates source code and generates professional project documentation using Google Gemini AI.
 
-🚀 Features
-🔹 Code Annotation
+---
 
-Supports Python, Java, C++, and JavaScript
+## 🚀 Overview
 
-Automatically detects programming language
+The **AI Code Annotator & Documentation Generator** is a developer assistant web application built using **Python (Flask)** and integrated with **Google Gemini 2.5 Flash**.
 
-Adds very brief block-style comments
+It allows users to:
 
-Preserves original logic (no modification)
+- Automatically annotate code with concise block-style comments  
+- Generate brief explanations of how a program works  
+- Analyze time and space complexity  
+- Create professional `README.md` files  
+- Generate `requirements.txt` from Python projects  
+- Upload and analyze full project ZIP files  
 
-Displays:
+This tool is designed to improve code readability, accelerate documentation, and support learning.
 
-📘 Short program explanation
+---
 
-⏱ Time complexity
+## 🧠 Features
 
-📦 Space complexity
+### 📝 Code Annotation
+- Supports **Python, Java, C++, and JavaScript**
+- Intelligent language detection (works for competitive coding formats like LeetCode)
+- Adds **brief block-style comments**
+- Displays:
+  - Program explanation
+  - Time complexity
+  - Space complexity
+- Download annotated file in original format (.py, .java, .cpp, .js)
 
-Download annotated file in its original format (.py, .java, .cpp, .js)
+---
 
-🔹 README & Documentation Generator
+### 📄 README Generator
+- Generates professional GitHub-ready `README.md`
+- Adds language badges automatically
+- Extracts project structure details
+- Accepts:
+  - Single source files
+  - Entire project ZIP uploads
 
-Generates a professional README.md
+---
 
-Adds language badges
+### 📦 Requirements Generator
+- Detects Python dependencies
+- Generates `requirements.txt`
+- Available when Python is detected
 
-Extracts and generates requirements.txt (for Python projects)
+---
 
-Supports:
+## 🏗️ System Architecture
 
-Pasted project code
+### Backend
+- Python
+- Flask
+- Google Generative AI SDK
+- Regex-based language detection
+- ZIP extraction handling
 
-Uploaded source files
+### Frontend
+- HTML
+- CSS (Dark Developer Theme)
+- Separate pages for:
+  - Annotation
+  - README Generation
 
-Full project ZIP uploads
+---
 
-🛠 Tech Stack
+## ⚙️ Installation
 
-Backend: Python, Flask
+### 1️⃣ Clone the Repository
 
-Frontend: HTML, CSS
-
-AI Model: Google Gemini 2.5 Flash
-
-Other Tools: Regex-based language detection, ZIP extraction
-
-📂 Supported Languages
-
-Python (.py)
-
-Java (.java)
-
-C++ (.cpp)
-
-JavaScript (.js)
-
-📦 Installation
-1️⃣ Clone the Repository
-git clone https://github.com/your-username/ai-code-annotator.git
+```bash
+git clone https://github.com/yourusername/ai-code-annotator.git
 cd ai-code-annotator
-2️⃣ Create Virtual Environment (Recommended)
-python -m venv venv
-source venv/bin/activate      # Mac/Linux
-venv\Scripts\activate         # Windows
-3️⃣ Install Dependencies
-pip install -r requirements.txt
-4️⃣ Add Your Gemini API Key
-
-Open app.py and replace:
-
-GEMINI_API_KEY = "PASTE_YOUR_GEMINI_API_KEY_HERE"
-
-with your actual API key.
-
-▶️ Run the Application
-python app.py
-
-Then open in browser:
-
-http://127.0.0.1:5000/
-🧠 How It Works
-
-User pastes or uploads code.
-
-Backend detects the programming language using pattern matching.
-
-Code is sent to Gemini model with controlled prompts.
-
-AI returns:
-
-Annotated code (brief block comments)
-
-Separate explanation
-
-Time & space complexity
-
-User can download annotated file in original format.
-
-For documentation:
-
-User uploads project or ZIP file.
-
-System extracts source files.
-
-Gemini generates README and requirements (if Python).
-
-Files are displayed and downloadable.
-
-📸 Screenshots (Optional)
-
-You can add screenshots here:
-
-![Annotation Page](screenshots/annotation.png)
-![README Generator](screenshots/readme.png)
-🎯 Use Cases
-
-Students learning new programming languages
-
-Understanding competitive programming solutions
-
-Quickly documenting GitHub projects
-
-Interview preparation
-
-Code review assistance
-
-🔮 Future Enhancements
-
-Syntax highlighting
-
-Copy-to-clipboard button
-
-AI-based language detection (instead of regex)
-
-Docker deployment
-
-Authentication system
-
-Cloud hosting support
-
-📜 License
-
-This project is open-source and available under the MIT License.
-
-👨‍💻 Author
-
-Vignesh Vishal
-Artificial Intelligence & Data Science
-Passionate about AI-driven developer tools 🚀
-
-If you want, I can now give you:
-
-🔥 A more advanced README (with badges + shields.io)
-
-🎓 A resume-ready project description
-
-📊 A system architecture diagram explanation
