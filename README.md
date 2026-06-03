@@ -1,4 +1,4 @@
-# 🧠 AI Code Annotator
+# 🧠 Code Annotation and Documentation Generation System
 
 An AI-powered web tool built with Flask and Google Gemini that automatically annotates source code, analyzes time/space complexity, and generates professional README and `requirements.txt` files for your projects.
 
